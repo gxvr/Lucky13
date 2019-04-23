@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lucky 13</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/twentytwenty.css">
+</head>
+
+<body>
+    <div class='wrapper'>
+
+        <div class="menu-bar mb-light">
+
+            <div class="mb-title">
+                <span class="title">Lucky 13</span>
+            </div>
+
+            <div class="mb-circles" id="title-bar-btns">
+                <div class="circle c-light c-yellow" id="min-btn"></div>
+                <div class="circle c-light c-green" id="max-btn"></div>
+                <div class="circle c-light c-red" id="close-btn"></div>
+            </div>
+        </div>
+
+        <!--
+        <div class="about" id="about-wrapper">
+            <div class="author">
+                <div class="author-pic">
+                </div>
+
+                <div class="author-span">
+                    <span class="author-sp"><strong>Made by — </strong> Geofrey Xvr</span>
+                    <span class="author-sp"><strong>Description — </strong> Apply beautiful filters and effects to your photos! </span>
+                </div>
+
+                <div class="close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#040404" stroke-width="1" stroke-linecap="square" stroke-linejoin="arcs">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="pre-loader" id="preloader">
+
+
+        </div>
+
+        <div class="sidebars">
+
+            <div class="sidebar-effects">
+                <div class="sidebar-ef-top">
+                    <span class="sb-ef-title">Toolbox</span>
+                </div>
+
+                <div class="tab">
+                    <div style="display: flex">
+                        <span class="tab-title">Effects</span>
+                        <div class="icony">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0094dd" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div style="display: flex">
+                        <span class="tab-title">Overlay</span>
+                        <div class="icony">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0094dd" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div style="display: flex">
+                        <span class="tab-title">Shape</span>
+                        <div class="icony">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0094dd" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div style="display: flex">
+                        <span class="tab-title">Stickers</span>
+                        <div class="icony">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0094dd" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Sidebar Main-->
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <span class="sb-title">Properties</span>
+                </div>
+
+                <div class="sidebar-preview twentytwenty-container" id="sb-preview">
+                    <img src="img/rose.jpg" class="image-preview">
+                    <img src="img/rose-effect.jpg" class="image-preview">
+                </div>
+
+                <div class="info">
+
+                    <div class="icony">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0094dd" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+                            <line x1="4" y1="21" x2="4" y2="14"></line>
+                            <line x1="4" y1="10" x2="4" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12" y2="3"></line>
+                            <line x1="20" y1="21" x2="20" y2="16"></line>
+                            <line x1="20" y1="12" x2="20" y2="3"></line>
+                            <line x1="1" y1="14" x2="7" y2="14"></line>
+                            <line x1="9" y1="8" x2="15" y2="8"></line>
+                            <line x1="17" y1="16" x2="23" y2="16"></line>
+                        </svg>
+                    </div>
+
+                    <span class="info-span">
+                        Lucid Dreams
+                    </span>
+                </div>
+
+                <div class="ranges">
+                    <div class="ranger">
+                        <span>Brightness</span>
+                        <div class="rangeslider rangeslider-horizontal" aria-valuemin="1" aria-valuemax="8" aria-valuenow="2" aria-orientation="horizontal">
+                            <div class="rangeslider__fill" style="width: 50.5px;"></div>
+                            <div class="rangeslider__handle" style="left: 50.5px;" tabindex="0">
+                                <div class="rangeslider__handle-label"></div>
+                            </div>
+                            <ul class="rangeslider__labels"></ul>
+                        </div>
+                    </div>
+
+                    <div class="ranger">
+                        <span>Exposure</span>
+                        <div class="rangeslider rangeslider-horizontal" aria-valuemin="1" aria-valuemax="8" aria-valuenow="2" aria-orientation="horizontal">
+                            <div class="rangeslider__fill" style="width: 50.5px;"></div>
+                            <div class="rangeslider__handle" style="left: 50.5px;" tabindex="0">
+                                <div class="rangeslider__handle-label"></div>
+                            </div>
+                            <ul class="rangeslider__labels"></ul>
+                        </div>
+                    </div>
+
+                    <div class="ranger">
+                        <span>Highlights</span>
+                        <div class="rangeslider rangeslider-horizontal" aria-valuemin="1" aria-valuemax="8" aria-valuenow="2" aria-orientation="horizontal">
+                            <div class="rangeslider__fill" style="width: 50.5px;"></div>
+                            <div class="rangeslider__handle" style="left: 50.5px;" tabindex="0">
+                                <div class="rangeslider__handle-label"></div>
+                            </div>
+                            <ul class="rangeslider__labels"></ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+
+    </script>
+
+    <script src="js/renderer.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+        $(window).load(function() {
+            $("#sb-preview").twentytwenty();
+        });
+
+    </script>
+
+    <script src="js/app.js"></script>
+
+    <script>
+        if (window.module) module = window.module;
+
+    </script>
+</body>
+
+</html>

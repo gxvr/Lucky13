@@ -1,0 +1,11 @@
+.Gradient {
+    background-image: -moz-linear-gradient(90deg, rgb(54, 154, 187) 3%, rgb(178, 120, 57) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(54, 154, 187) 3%, rgb(178, 120, 57) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(54, 154, 187) 3%, rgb(178, 120, 57) 100%);
+    position: absolute;
+    left: 11px;
+    top: -18px;
+    width: 2504px;
+    height: 3342px;
+    z-index: 2;
+}
